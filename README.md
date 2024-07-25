@@ -13,4 +13,4 @@ Necessário configurar as [secrets](https://github.com/yurigauermarques/deploy-a
 
 ## Licença
 
-Descrição da licença do projeto.
+[MIT License](https://github.com/yurigauermarques/deploy-aws/blob/main/LICENSE)
