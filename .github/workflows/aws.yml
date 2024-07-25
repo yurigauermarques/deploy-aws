@@ -3,7 +3,7 @@ name: Deploy to Amazon LightSail
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "production" ]
 
 permissions:
   contents: read
