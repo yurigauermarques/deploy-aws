@@ -12,7 +12,7 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    environment: production
+    environment: teste
 
     steps:
       - name: Checkout
@@ -23,6 +23,8 @@ jobs:
           echo "Token de deploy:  ${{ secrets.TARGET_HOST }}"
           echo "Token de TESTE: ${{ secrets.TARGET_HOST }}"
           echo  ${{ secrets.TARGET_HOST }}
+          echo  ${{ secrets.AWS_REGION }}
+          echo  ${{ secrets.OUTRO_SEGREDO }}
 
       # - name: "Copiar arquivos para VPS"
       #   uses: appleboy/scp-action@v0.1.7
